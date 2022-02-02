@@ -651,10 +651,13 @@ progress {
     content: "— ";
 }
 
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
+
+/* .img-fluid {
+    /* max-width: 100%;
+    height: auto; 
+    height: 12rem!important;
+    width: 15.9rem!important;
+} */
 
 .img-thumbnail {
     padding: 0.25rem;
@@ -11328,62 +11331,6 @@ header.masthead .h1 {
 
 /* new css */
 
-
-/* portfolia img css start*/
-
-#portfolio .container-fluid .col-lg-2 img {
-    height: 12rem;
-    width: 16rem;
-}
-
-
-/* portfolia img css endd */
-
-
-/* also about us css  */
-
-.container .card-box {
-    border: 1px solid #ddd;
-    padding: 20px;
-    box-shadow: 0px 0px 10px 0px #c5c5c5;
-    margin-bottom: 30px;
-    float: left;
-    border-radius: 10px;
-}
-
-.container .card-box .card-thumbnail {
-    max-height: 200px;
-    overflow: hidden;
-    border-radius: 10px;
-    transition: 1s;
-}
-
-.container .card-box .card-thumbnail:hover {
-    transform: scale(1.2);
-}
-
-.container .card-box h3 a {
-    font-size: 20px;
-    text-decoration: none;
-}
-
-
-/* card css */
-
-.container .card-box {
-    /* font-size: 15px; */
-    font-weight: 300;
-}
-
-.container .card-box li {
-    list-style-type: disc;
-    line-height: 1.5rem;
-}
-
-.container .card-box {
-    text-align: justify;
-}
-
 .page-section .card {
     border: none;
 }
@@ -11393,87 +11340,60 @@ header.masthead .h1 {
 }
 
 
+/* portfolia img css start*/
+
+#portfolio .container-fluid .row .col-lg-2 .img-fluid {
+    height: 12rem!important;
+    width: 15.8rem!important;
+}
+
+
+/* portfolia img css endd */
+
+
+/* also about us css  */
+
+
+/* card css */
+
+#about .container .row .col-md-6 .card-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #c5c5c5;
+    margin-bottom: 30px;
+    float: left;
+    border-radius: 10px;
+}
+
+#about .container .row .col-md-6 .card-box .card-thumbnail {
+    max-height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#about .container .row .col-md-6 .card-box .card-thumbnail:hover {
+    transform: scale(1.2);
+}
+
+#about .container .row .col-md-6 .card-box h3 a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#about .container .row .col-md-6 .card-box {
+    /* font-size: 15px; */
+    font-weight: 300;
+}
+
+#about .container .row .col-md-6 .card-box li {
+    list-style-type: disc;
+    line-height: 1.5rem;
+}
+
+#about .container .row .col-md-6 .card-box {
+    text-align: justify;
+}
+
+
 /* also about us css end   */
-
-
-/*Testimonial*/
-
-
-/* #f4623a color orange */
-
-.all {
-    background: black;
-}
-
-.des-color {
-    color: #fff;
-}
-
-.main-img {
-    width: 100px;
-}
-
-.testimonial p {
-    font-weight: bold;
-    color: #fff;
-}
-
-.testimonial h2 {
-    font-weight: bold;
-    color: #fff;
-}
-
-
-/* end of the Carousel*/
-
-
-/* social media icon */
-
-
-/* .social-links .fa {
-    padding: 17px;
-    font-size: 17px;
-    width: 47px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
-
-.social-links .fa:hover {
-    opacity: 0.7;
-}
-
-.social-links .fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.social-links .fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.social-links .fa-google {
-    background: #dd4b39;
-    color: white;
-}
-
-.social-links .fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-.social-links .fa-pinterest {
-    background: #cb2027;
-    color: white;
-}
-
-.social-links .social-links a:hover {
-    background: #ee463a;
-    color: #fff;
-    text-decoration: none;
-} */
-
-
-/* social media icon end */
